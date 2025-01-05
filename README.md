@@ -29,7 +29,7 @@ git clone https://github.com/tuusuario/nombre-del-repositorio.git
 "C:/xampp/htdocs/Caso1_HCI_ HugoLainez"
 
 ```
-    Nota: es importante que el directorio principal del proyecto se llame "Caso1_HCI_ HugoLainez", de esta forma se evitará cualquier error en la configuración del sistema
+Nota: es importante que el directorio principal del proyecto se llame "Caso1_HCI_ HugoLainez", de esta forma se evitará cualquier error en la configuración del sistema
 
 ### 3. Importar la base de datos
 1. Inicie el servidor MySQL desde el panel de control de XAMPP.
@@ -54,4 +54,8 @@ $database = 'sistemaeducativo';
 1. Inicie los servicios de Apache y MySQL desde el panel de control de XAMPP.
 2. Abra su navegador web y acceda a http://localhost/Caso1_HCI_ HugoLainez.
 
+## Video de prueba
 
+Se subio un video a YouTube, donde se muestra como funciona el Sistema Web y se prueba que no genera ningun error.
+
+Puede acceder mediante https://youtu.be/ERGcwwHvPd4
