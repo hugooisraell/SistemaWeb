@@ -1,0 +1,92 @@
+/* styles_form.css*/
+
+/* Estilos para texto*/
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b87474;
+}
+
+.titulo-principal {
+    font-size: 2.5rem; /* Tamaño grande para destacar */
+    text-align: center; /* Centrado */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+}
+
+.titulo-secundario {
+    margin-bottom: 20px;
+}
+
+/* Estilo de los contenedores*/
+.container {
+    width: 60%;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc; /* Borde del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Espacio entre los contenedores */
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Efecto de sombra para simular iluminación */
+    border: 2px solid #F8DF9E; /* Borde del contenedor */
+}
+
+.container:hover .titulo-principal, .container:hover .titulo-secundario{
+    color: #F86B25;
+}    
+
+/* Estilos de etiquetas e inputs*/
+.form-group {
+    transition: all 0.3s ease; /* Se agregó 's' para indicar segundos */
+}
+
+.form-group:hover {
+    transform: translateY(-5px); /* Eleva el grupo al pasar el ratón */
+}
+
+.form-group label {
+    transition: all 0.3s ease; /* Transición suave para cambios */
+}
+
+.form-group:hover label {
+    color: #FF8244; /* Texto naranja para contraste */
+    transform: scale(2); /* Efecto de zoom */
+    transform: translateX(10px);
+}
+
+input {
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra inicial */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+input:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    border: 2px solid #FF8244; /* Borde naranja */
+}
+
+/* Estilos de los botones */
+.btn-custom {
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-right: 2px;
+    width: 100px;
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+}    
+
+.btn-custom:focus, .btn-custom:hover {
+    background-color: white; /* Fondo blanco al enfocar o pasar el ratón */
+    color: #FF8244; /* Texto naranja para contraste */
+    border: 2px solid #F8DF9E; 
+    transform: scale(1.05); /* Efecto de zoom al enfocar */
+}
+
