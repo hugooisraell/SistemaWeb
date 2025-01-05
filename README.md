@@ -25,9 +25,11 @@ git clone https://github.com/tuusuario/nombre-del-repositorio.git
 
 1. Copie la carpeta del proyecto en el directorio htdocs dentro de la carpeta donde instaló XAMPP. Por ejemplo:
 
+```
 "C:/xampp/htdocs/Caso1_HCI_ HugoLainez"
 
-Nota: es importante que el directorio principal del proyecto se llame "Caso1_HCI_ HugoLainez", de esta forma se evitará cualquier error en la configuración del sistema
+```
+    Nota: es importante que el directorio principal del proyecto se llame "Caso1_HCI_ HugoLainez", de esta forma se evitará cualquier error en la configuración del sistema
 
 ### 3. Importar la base de datos
 1. Inicie el servidor MySQL desde el panel de control de XAMPP.
@@ -38,12 +40,15 @@ Nota: es importante que el directorio principal del proyecto se llame "Caso1_HCI
 1. Abra el archivo config.php en el directorio raíz del proyecto.
 2. Verifique que las credenciales coincidan con su configuración de XAMPP. Por defecto, las credenciales son:
 
+```
 <?php
 $host = 'localhost';
 $user = 'root';
 $password = '';
 $database = 'sistemaeducativo';
 ?>
+
+```
 
 ### 5. Ejecutar el proyecto
 1. Inicie los servicios de Apache y MySQL desde el panel de control de XAMPP.
