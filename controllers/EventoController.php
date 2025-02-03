@@ -41,7 +41,7 @@ class EventosController {
         $this->evento->agregar($titulo, $fecha, $hora, $categoria, $descripcion, $lugar);
         
         // Redirige a la lista de eventos
-        header('Location: /Caso1_HCI_ HugoLainez/index.php');
+        header('Location: ./index.php');
     }
 
     // Método para mostrar el formulario de edición
@@ -66,7 +66,7 @@ class EventosController {
         $this->evento->actualizarEvento($id, $titulo, $fecha, $hora, $categoria, $descripcion, $lugar);
         
         // Redirige a la lista de eventos
-        header('Location: /Caso1_HCI_ HugoLainez/index.php');
+        header('Location: ./index.php');
     }
 
     // Método para eliminar un evento
@@ -75,6 +75,6 @@ class EventosController {
         $this->evento->eliminar($id);
         
         // Redirige a la lista de eventos
-        header('Location: /Caso1_HCI_ HugoLainez/index.php');
+        header('Location: ./index.php');
     }
 }
