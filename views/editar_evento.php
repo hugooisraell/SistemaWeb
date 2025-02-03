@@ -8,7 +8,7 @@
     <title>Editar Evento</title>
     <!-- Incluye Bootstrap para los estilos -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/Caso1_HCI_ HugoLainez/styles/styles_form.css">
+    <link rel="stylesheet" href="./styles/styles_form.css">
 </head>
 
 <body>
